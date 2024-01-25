@@ -1,0 +1,258 @@
+
+			JAVA
+			====
+			
+program
+	- set of instruction to machine or computer
+	
+	language
+	java
+	
+	language 2 types
+	1 pop	eg c c++ cobal basic
+	2 oop	eg c# java pyton
+	
+	line by line
+	
+	oop
+	performance	> inheritance, polymorhism
+	security	> encapsulation abstraction
+	53 key words
+	1991 james gosling
+	oak
+	1995 oak to java
+	1995
+	platform independent
+	
+	wora
+	
+	windows --> mac
+	mac --> Linux
+	JVM
+	java virtual machine
+	jDK =JRE+jvm
+	portable :
+	MObile web stanalone
+	
+	code write in .java extension
+	
+	|
+	compile
+	|
+	.class
+	|
+	execute
+	
+	
+	JVM
+	
+	sample program
+	
+	eclipse
+	program
+	Operators
+	
+JDK EDITIONS
+JSE Java Standard Edition
+J2EE Java Enterprise Edition
+J2ME Java Micro Edition
+
+keywords in Java
+53
+
+int rollNumber = 101;
+
+test.java
+
+rollNumber
+rollnumber  x
+RollNumber  X
+
+IDE -- smart compiler to execute the code
+eg. eclipse, netbeans,vscode....
+
+Eclipse Installation:
+
+
+create a project
+create a package
+create a class
+
+projectA
+ package1	package2
+ classA		classA
+ classB		classC
+ 
+ 
+ *every class have 2 members
+ methods and variables
+ 
+ print statements:
+ 1.print
+ 2.println
+ 
+ 
+ Variable:
+ variable is container it holds the value
+ eg int i=5;
+ 
+datatype variableName = value;
+
+int a =10;
+
+variable 
+declaration
+assign
+
+int a; // declaration
+a=10; // assign
+
+rules
+1.case sensitive
+2.special characters
+	$,_
+	a to z
+	A to Z
+	0 to 9
+3.space is not allowed
+4.camel case	first letter small and next word first letter capital Eg: noOfDays
+5.keywords or reserved words dont use
+
+	.java
+	compile cmd javac filename.java
+	execution java filename
+	
+	constants
+	final int A =10;
+	
+	
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+	
+	
+	
+	
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
