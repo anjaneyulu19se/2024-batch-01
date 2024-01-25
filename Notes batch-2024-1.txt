@@ -52,7 +52,7 @@ program
 	program
 	Operators
 	
-JDK EDITIONS
+JDK EDITIONS:
 JSE Java Standard Edition
 J2EE Java Enterprise Edition
 J2ME Java Micro Edition
@@ -102,19 +102,21 @@ int a =10;
 
 variable 
 declaration
-assign
+assignment
 
 int a; // declaration
-a=10; // assign
+a=10; // assigning
 
-rules
+rules for Identifiers:
 1.case sensitive
-2.special characters
+2.Only Allowed characters :
+	special characters
 	$,_
 	a to z
 	A to Z
 	0 to 9
-3.space is not allowed
+	
+3. Identifiers should not start with digit & space is not allowed
 4.camel case	first letter small and next word first letter capital Eg: noOfDays
 5.keywords or reserved words dont use
 
@@ -122,8 +124,153 @@ rules
 	compile cmd javac filename.java
 	execution java filename
 	
-	constants
-	final int A =10;
+	constants:
+	
+	Eg: final int A =10;
+	
+	variable:
+	container its store the value
+	datatype varaible = value;
+	eg: int a =10;
+	
+	types
+	Local
+	intance
+	static
+	
+	Identifiers:
+	
+	Rules:
+	1.Allowed charcters
+	 a to z
+	 A to Z
+	 0 to 9
+	 $
+	 _
+	 demo  - valid
+	 demo@ - invalid
+	 age# - invalid
+	 age_  - valid
+	2. Should not start with digit
+	
+	1demo - invalid
+	demo3 - valid
+	
+	3. Keywords   --53 keywords
+	
+	  int byte = 100;  invalid
+	  int for = 20;  invalid
+	  int phonneNo = 9999;  valid
+	  
+	 4. Spaces are not allowed
+	 
+	   int phone no = 9999;   invalid
+	   int phone_no = 9999;  valid
+	   
+	 5. case sensitive
+	 
+	 int Phone = 9999;
+	 
+	 Phone and phone are not same.
+	 
+	 
+	 
+Java coding conventions/Naming conventions:
+
+ *noOfDays = 15;
+  noofdays = 15;
+ 
+ 6 conventions
+ 1.conventions for class
+	NoOfDays
+	Test
+		
+ 2. conventions for methods
+	start with lower case
+	eg: demo()
+	noOfDays()
+	
+
+ 3. conventions for interfaces
+ 
+ same for clasess and interfaces
+   start with Upper case without spaces
+   
+ 4.conventions for variables
+ 	start with lower case
+ Eg: int age;
+ int phoneNumber;
+ 
+ 
+ 5.conventions for constants
+ constant is fixed
+ final int AGE = 20;
+ final int PHONE_NUMBER = 99999;
+ 
+ 
+ 
+ 6. conventions for packages
+	use small letters
+	Eg: practise
+	com.practice
+	in.practise
+	
+	
+ Comments:
+ 
+ 3 types
+ 1.single line 
+ // comment
+ 
+ 2.multi line
+ /*
+ 
+ */
+ 3. Documentation comments
+ /**
+ 
+ */
+ 
+ 
+ Operators:
+ ==========
+ Operator in java is a symbol that is used to perform operations
+ Eg:
+ +, -, *, /, %
+ 
+ Unary
+ Arthematic
+ Relational
+ conditional/Logical 
+ Assignment Operators
+ 
+ Unary Operator:
+ a =10;
+ +1 
+ -1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	 
+	
+	
+	
 	
 	
  
