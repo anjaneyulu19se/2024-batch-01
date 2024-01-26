@@ -1,0 +1,10 @@
+
+Arithmetic Operators
+
+Write a Java program that calculates and prints the result of the following arithmetic operations:
+Addition
+Subtraction
+Multiplication
+Division
+Modulus
+
