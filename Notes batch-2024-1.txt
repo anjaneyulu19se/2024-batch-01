@@ -268,29 +268,153 @@ Java coding conventions/Naming conventions:
  RETURN VALUE IS BOOLEAN
  
  Logical OPerators:
+ =================
  AND &&
  OR ||
  
  RETURN VALUE IS BOOLEAN
  && (mandatory)
- true true --- true
+ true true --- true				Either one condition is false --> False
  true false ---false
  false true --- false
  false false --- false
  
  || (optional)
- true true --- true
+ true true --- true				either one is true -> True
  true false -- true
  false true --- true
  false false --- false
  
  Assignment Operators:
+ ====================
  =  int
  +=			
  -=
  *=
  /=
  %=
+ 
+ 
+ Data Types:
+ ===========
+ 
+int a =10; type of data am storing in varaible.specify the size of the data.
+
+
+dataType varaibleName = Value ;
+2 type:
+1.premitive
+2.Non-premitive
+
+1. Premitive DataTypes
+ Numners Types
+	Number
+		byte
+		short
+		int
+		long
+	Decimal
+		float
+		double
+ character Types
+		char
+ Boolean Types
+		boolean
+
+8 types of premitive dataType
+byte
+short		
+int
+long
+float
+double
+char
+boolean
+
+ 01 's these binary bits
+ 
+ 1 byte = 8bits
+ i nipple = 4 bits
+ 1 byte = 8 bits
+ 1 kilo bytes = 1024 bits
+ 1 mega bytes = 1024 kb
+ 1 giga bytes = 1024 mb
+ 1 Tera byte  =  1024 gb
+ 1 peta byte  = 1024 tb
+ 
+ Wrapper classes:
+ byte - Byte
+ short - Short
+ int - Integer
+ long - Long
+ float - Float
+ double - Double
+ char - Character
+ boolean - Boolean
+ 
+ byte:
+ integer data type
+ value range beteen -128 to 127
+ default value "0"
+ eg: byte b = 10; 
+ 
+ short:
+ integer type
+ 2 bytes
+ range is -32768 to 32767
+ default value  " 0"
+
+int:
+integer type
+4 bytes
+range -2147483648 to 2147483647
+default value = 0
+
+long:
+integer type 
+8 bytes
+range  -9223372036854775808 to 9223372036854775807
+default value = 0
+eg : long l = 1002;
+
+float : 
+integer data type
+4 bytes
+default value = 0.0f
+Eg : float f =10.30f;
+
+double:
+integer dataType
+8 bytes
+default value = 0.0d
+Eg: double abc = 15.123;		5.26489765  5.26
+
+char:
+char type
+unicode 
+\u0000 to \uffff or 0 to 65535
+Eg: char a = 'H';
+ 
+ 
+ 
+ 
+ DATATYPE	SIZE  DEFAULT_VALUE
+ byte 		1byte	0
+short   	2 bytes	0
+int 		4		0
+long		8		0
+float		4		0.0f
+double		8		0.0d
+char		2		null
+boolean		1bit	false
+
+ 
+ 
+ data type > Byte >  byte
+ 
+ 
+ 
+ 
  
  
  
