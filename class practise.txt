@@ -1,0 +1,61 @@
+
+1.Write a Java program to print 'Hello World' on screen and your name on a separate line.
+
+2.Write a Java program to print the sum of two numbers.
+	eg: 25+26
+	output : 51
+	
+3.Write a Java program to divide two numbers and print them on the screen
+	eg: 50/3
+	Output: 16
+
+4.Write a Java program to print the results of the following operations.
+	a. -5 + 8 * 6
+	b. (55+9) % 9
+	c. 20 + -3*5 / 8
+	d. 5 + 15 / 3 * 2 - 8 % 3
+	
+	Expected output: 
+	a.43
+	b.1
+	c.19
+	d.13
+	
+5. Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
+	125,24
+	expected Output:
+	125 + 24 = 149
+	125 - 24 = 101
+	125 x 24 = 3000
+	125 / 24 = 5
+	125 mod 24 = 5
+	
+6.Write a Java program to compute the specified expressions and print the output.
+	Test Data:
+		((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5))
+		Expected Output
+			2.138888888888889
+			
+7.	Write a Java program to compute a specified formula.
+		Specified Formula :
+			4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11))
+		Expected Output
+			2.9760461760461765			
+			
+8.Write a Java program that takes three numbers to calculate and print the average of the numbers.
+			15,20,35
+		Expected Output: 23.33 or  23
+		
+9.Write a Java program that 2 numbers between 50 to 100  and false otherwise.
+	data1: 65
+	output : true
+	data2: 45
+	output: false
+	
+10.Write a Java program that num1 is greathan num2?
+	data:
+		num1=25
+		num2=15
+	Output:
+		True
+		
