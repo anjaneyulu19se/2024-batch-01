@@ -285,6 +285,9 @@ Java coding conventions/Naming conventions:
  false true --- true
  false false --- false
  
+ Day -5:
+ =======
+ 
  Assignment Operators:
  ====================
  =  int
@@ -411,6 +414,17 @@ boolean		1bit	false
  
  
  data type > Byte >  byte
+ 
+ 
+ Day-6:
+ ======
+ data types
+ variables
+ Operators
+ 
+ *compilation starts from line by line but excution start from main methods
+ 
+ 
  
  
  
