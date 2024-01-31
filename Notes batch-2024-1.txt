@@ -424,6 +424,145 @@ boolean		1bit	false
  
  *compilation starts from line by line but excution start from main methods
  
+ Practice test programs
+ 1.
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+ 10.
+ 
+ 
+ Day -7:
+ =======
+ 
+ String:
+ 
+ non-premitive data type 
+ its literal
+ 
+	char[] ch = {'a','n','t'};
+	String s = new String(ch);
+	
+	or
+	
+	String s ="ant";
+	
+Java Type casting:
+=================
+
+convert from one data type to another data type is called as Type casting
+
+double x = 5.0;
+int y = x;
+
+byte > short > char > int > long > float > double
+
+2 types
+1. widening casting
+2. Narrow casting
+1.widening/imlicit casting:
+ small dat type to large type of data converting automatically.
+ ther is no need to specify the compiler
+ 
+ int i =4000;
+ long h = i;
+ 
+ 2.Narrow / Explicit casting:
+	manual casting
+	specify inform to compiler
+	
+	eg:
+	 long a = 750.25;
+	 int b =a;
+	 
+	 
+Methods:
+========
+Method is a block of code which is defined to perform specific task / operations
+
+syn:
+access modifier Static/Nonstatic returnType MethodName (parameter) {
+	//block of code
+	
+	
+	}
+ 
+2 types of methods
+parameterized
+non parameterized / default
+
+	
+	method name is in camel case
+	eg:
+	 addOfMethod
+	 
+	
+	
+	predifined method
+		defined java
+		eg: print main...
+	user defined method
+		defined by user
+		Eg:
+		Static and instance
+		
+Object:
+======
+
+Object is an instance of class.
+
+class is a blueprint of the code.
+if class =figure
+ object 1 = rectangle figure
+ object 2 = square 
+ object 3 = circle
+ 
+we can create  n number of objects for a class
+
+*Super class of all classes is Object Class.
+
+	creation of object
+	syn:
+	classname objectName = new classname();
+
+method call will execute only when calling
+
+calling methods
+2 types
+ class name		when it is a static method using class name
+ object creation when it is a instance method using class name 
+
+* code reusability
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
