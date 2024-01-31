@@ -524,18 +524,18 @@ if class =figure
  
 we can create  n number of objects for a class
 
-*Super class of all classes is Object Class.
+*Object Class is Super class of all classes.
 
 	creation of object
 	syn:
 	classname objectName = new classname();
 
-method call will execute only when calling
+methods get executed only when called.
 
-calling methods
+method calling 
 2 types
- class name		when it is a static method using class name
- object creation when it is a instance method using class name 
+ class name			when it is a static method using class name
+ object creation 	when it is a instance method using object 
 
 * code reusability
 
