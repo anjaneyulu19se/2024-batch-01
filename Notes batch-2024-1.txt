@@ -606,7 +606,90 @@ else
  suysout "a is negative"
 }
 
+Day-9:
+======
+Packages:
+========
+A package in java is used to group related classes.
 
+to avoid name conflict.
+package:
+display class    // not able to save with same name.
+display class
+
+package1:
+ display class
+package2 :
+ display class
+ 
+ better code:
+ 
+ index page
+ 
+ packes are divided into 2 categories
+ 2 types
+ 1. built in
+ 2.User defined
+ 
+ 1. Builtin packages:
+ 
+ https://docs.oracle.com/javase/8/docs/api/
+ 
+ import keywords
+ 
+ *default package: "java.lang"
+ ** Super class of all classes : Object.
+  Object class consists methods and parameters and constructers
+	-11 methods
+
+ imoprt keywords
+  import packagename.classname;
+  import packageName.subPackagename.Classname;
+  
+  java.lang.
+  import java.lang.*  // all classes in that package.
+ import java.lang.System;  // specific class import from Built in package
+ 
+ 2. User defined:
+ 
+ we creating packages as per our requirement
+ 
+ using package keywords
+ 
+ syntax:
+  package packagename;
+  
+ standar syntax:
+  package dmainName.companyName.package
+  
+  Eg: package com.java.basics;
+  
+  
+ ========================================
+ 
+ Dynamic input from the User:
+ ============================
+ 
+ Run time input from user
+ 
+ 3 types :
+ 1.command line arguments
+ 2.Scanner class
+ 3.BufferReader (in files i/p)
+ 
+  1.command line arguments:
+  
+  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
  
  
  
