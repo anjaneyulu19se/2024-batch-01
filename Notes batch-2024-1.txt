@@ -667,21 +667,121 @@ package2 :
   
  ========================================
  
+ Day-10:
+ =======
+ 
  Dynamic input from the User:
  ============================
  
  Run time input from user
  
  3 types :
- 1.command line arguments
- 2.Scanner class
- 3.BufferReader (in files i/p)
+  1.command line arguments
+ *2.Scanner class
+  3.BufferReader (in files i/p)
  
   1.command line arguments:
+  =========================
+  Command line arguments in java are used to pass arguments to the main program.
+  
+  pulic class Demo{
+  public static void main(String[] args){
+  
+  System.out.println(Hello Java World");
+  }
+   
+  }
+  mathodName("a","b")
+  
+  Arguments we can pass
+  String and premitive data types.
   
   
+  Array:
+  =====
+  Array is an object which contains elements of similar type of data.
+  
+  int a = 10;
+  
+  int b =1,2,3;
+  
+  int[] a = {1,2,3,4};
+	lenght of the array is fixed
+	we can't change later either decrease or increase.
+	
+	lenthof array a=4
+	index od array lenth - 1 // 4-1=3
+	
+	a[0] = 1
+	a[1] = 2
+	a[2] = 3
+	a[3] = 4
 
- 
+Sring[] name = {"apple","orange","banana","Mango"};
+
+		name[0]=apple
+		name[1]=orange
+		name[2]=banana
+		name[3]=Mango
+
+ String[] s = {"hyderabad","28","85.5","true"};
+	
+	string to integer we can convert
+	
+	parseInt,parseFloat,parseShort,parseByte,parseLong,parseCharacter,parseBoolean,parseDouble().
+	
+	Wrapper classes:
+	
+	data Type 			Wrapper class
+	========			=============
+	byte				Byte
+	short 				Short
+	int					Integer
+	long				Long
+	float				Float
+	double				Double
+	char				Character
+	boolean				Boolean
+	
+	Eg:
+		int a = Integer.parseInt("28");
+		
+		
+2.Scanner class:
+=================
+predifined class in java language
+it will in java.util package
+
+System class
+have 3 streams
+1.output stream
+2.input stream
+3.error stream
+
+input stream take data from user and stored at variable and do operation.
+
+to reciept input from user.
+Scanner class
+
+create an object for scanner class and import java.util package
+
+Scanner scan = new Scanner(System.in);
+methods use :
+
+ String  scan.nextLine(); ot scan.next()
+ Integer	scan.nextInt();
+Float	scan.nextFloat();
+long	scan.nextLong();
+double	scan.nextDouble();
+char	scan.nextCharacter();
+boolean scan.nextBoolean();
+byte	scan.Byte();
+
+
+
+
+		
+		
  
  
  
