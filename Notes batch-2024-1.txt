@@ -778,7 +778,24 @@ boolean scan.nextBoolean();
 byte	scan.Byte();
 
 
+Day--11:
+=========
+2.Scanner class:
+=================
+	^
+	|
 
+
+Java Dates:
+java does not have a built in Date class, but we can inport the java.time package
+to work with date and time
+
+Eg:
+LocalDate yyy-mm-dd
+
+LocalTime HH-mm-ss-ns
+
+DateTimeFormatter from "yyy-mm-dd"  to  "dd-mm-yyyy"
 
 		
 		
