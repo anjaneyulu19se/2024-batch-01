@@ -797,21 +797,129 @@ LocalTime HH-mm-ss-ns
 
 DateTimeFormatter from "yyy-mm-dd"  to  "dd-mm-yyyy"
 
+
+Day--12:
+========
+
+Control statements/Flow control:
+===============================
+-> In java we can write any number of statements which are executed in sequence order by 
+default
+-> But if we want to execute java statements according to our requirement then we have to 
+use control statements
+-> These statements decide whether a specific part of the code will be executed or not.
+
+
+Eg:
+ marks >= 35 ----> pass 
+ otherwise (<35) ---> Fail
+
+Types:3
+1. Selection/conditional statements
+2. Loop / Itereate Statements
+3. Jump / transfer statements
+
+
+1. Selection statements:
+========================
+a.if statements
+		i).simple if
+		ii).if -else
+		iii).nested if
+		iv). if else if
+b. switch statements
+
+1. Selection/conditional statements:
+====================================
+Conditional statements are used to execute group of statements based on condition.
+Selection / condition statements  will evaluate BOOLEAN expression to make the decission.
+
+i.simple if:
+============
+
+		if the condition is true block of code is executed ,
+		if the condition is false block of code is Ignored.
 		
-		
+Syntax:
+
+if (condition){
+
+Statements:// execute when condition is true
+
+}
+ 
+ ii.if -else:
+ ============
+ if else ithe extension of if statements
+ which uses another block that is else block
+ 
+ 2 conditions
+ 
+ Eg: 
+ marks >=35  >>> pass 
+ marks < 35 >>>> fail
+ 
+ Syntax:
+ ========
+ if (condition){
+ Statement 1 Eg: pass
+ }else {
+ Statement 2  Eg:fail
+ }
+ 
+ iii.Nested if:
+ ==============
+if  statement can contain a if or if else statement  
+ if[if else] or if [if]
+ 
+ Syntax:
+ ========
+ if (condition){
+	if(condition){
+		}else {
+	
+			}
+ }
+ 
+condition hava another condition we use nested if
+
+ 
+ iV):if-else if else (if else ladder):
+ ========================================
+ 
+ if else if statements will be used when we need to compare the value with morethan 2 conditions.
  
  
+ 1 to n if else we use upto our requirement
  
- 
- 
- 
- 
-  
- 
- 
- 
- 
- 
+ nested if:
+  +
+	+	
+	 +
+	   +
+
+if -else if ladder:	   
++
++
++
++
+
+ Syntax:
+ =======
+ if(condition){
+ statement :1 
+ }else if (condition){
+ statement :2
+ }else if (condition){
+ statement :3
+ }else 
+statement :4
+
+Assignment:
+===========
+Write a java program to check given number is even or odd number?
+
+ Hint: use scanner class and if -else statement
  
  
  
