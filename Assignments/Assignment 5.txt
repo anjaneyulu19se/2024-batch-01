@@ -1,0 +1,6 @@
+Assignment:
+===========
+Write a java program to check given number is even or odd number?
+
+ Hint: use scanner class and if -else statement
+ 
