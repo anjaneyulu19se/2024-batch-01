@@ -921,15 +921,72 @@ Write a java program to check given number is even or odd number?
 
  Hint: use scanner class and if -else statement
  
+ Day--13:
+ ========
  
+ b. switch statements:
+ =====================
+ switch statementscompares the value and execute one of the case blocks based on condition
  
+ valu based condition
  
+ like if else ladder (based on the condition)
  
+ == operator no <><=>=
+ points to remeber:
+ ==================
+ 1.There can be one to N number of cases.
+ 2.The value in the case must be unique
+ 3.case value must be the same type of expression used in switch statement
+ 4.In each case statement have break statement (optional)
+ 5. default case (optional)
  
+ Syntax:
+ ======
+ switch (expression or value){			// == operator
+	case value1:
+	  statement1;
+	  break;
+	case value2;
+		statement2;
+		break;
+		.
+		.
+		.
+	case valueN;
+		statementN;
+		break;
+	default:
+		statement;
+ }
+ ....
  
+
+ nested switch statements:
+ =========================
  
- 
- 
+  Syntax:
+ ======
+ switch (expression or value){			// == operator
+	case value1:
+	  statement1;
+	  break;
+		 switch (expression or value){			// == operator
+		case value1:
+			statement1;
+			break;
+	case value2;
+		statement2;
+		break;
+		.
+		.
+		.
+	case valueN;
+		statementN;
+		break;
+	default:
+		statement;
+ }
  
  
  
