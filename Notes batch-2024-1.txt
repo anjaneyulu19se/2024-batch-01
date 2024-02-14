@@ -989,11 +989,82 @@ Write a java program to check given number is even or odd number?
  }
  
  
+Day--14:
+========
+
+2. Loop / Itereate Statements:
+==============================
+iterate the sequence of the statements
+
+>Looping statements are the statements that execute one or more statement repeatedly
+ several number of times based on some condition.
+ 
+decission makin condition will be boolean expression == true or false.
+
+here if the statement will execute unless the condition is false.
+
+3 types:
+=======
+while 
+do-while
+for loop
+
+*for-each (extended for loop)
  
  
+ while loop statements:
+ =====================
+ if we dont know number of iteration in advance then we should go for while loop.
  
+ Syntax:
+ ========
+ while(condition){
+ //statements
+ }
  
+ do-while:
+ =========
  
+ Syntax:
+ ========
+ do{
+ //statements
+ }while(condition)
+ 
+ for Loop:
+ ========
+ If we know number of iterations in advance we use for loop.
+ 
+ intilization
+ condition
+ updation (increment/decrement)
+ 
+ Syntax:
+ =======
+ for(initilization;condition;updation){
+ //statements
+ }
+ 
+ 1st
+  iniilazation
+  condition
+     > execution
+	 
+	 2nd onwards
+	 updation
+	 condition
+	  > execution
+ 
+ Nested for Loop:
+ ================
+ 
+ syntax:
+ ======
+ for(initilization;condition;updation){
+	for(initilization;condition;updation){
+		//statements
+		}
+ }
  
  
  
