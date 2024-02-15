@@ -1,0 +1,18 @@
+1.Write a Java program that finds the maximum of three numbers.
+
+2. Write a Java program to find student is pass or fail.
+
+3.Write a Java program on based on assumptions find student division.(if else if ladder)
+
+4.write a program on using nested if condition using Interview round concept.
+
+5.print the statement based on day Name
+	> Monday to friday --> Ohh , Its a weekday
+	> saturday and sunday --> yayy,Its a weekend
+	
+	
+	Looping Statements:
+	==================
+1.print 1 to 100 values
+2.print even numbers between 200 to 500.
+
