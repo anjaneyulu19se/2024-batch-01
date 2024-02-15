@@ -1066,9 +1066,42 @@ for loop
 		}
  }
  
+Day--15:
+========
+
+3. Jump / Branching/transfer statements:
+========================================
+ Transfer statements are the control statements which are used to 
+ transfer the control position from one location to another location.
  
+ 3 types of jump statements:
+ ============================
+ 1.break
+ 2.Continue
+ 3.return
  
+ 1.Break statement:
+ ==================
+ Break statement is used to break current execution flow of the program.
  
+ case 1 
+  s1:
+  break;
+ case 2
+	s2
+	break;
+ case 3
+ s3
+ break;
+ 
+ 2.Continue statement:
+ =====================
+ continue statement is used to skip the current iteration of the loop. It jumps to the next iteration of the loop.
+ 
+ 3.Return:
+ ========
+ Return statement is used to transfering statement 
+ which is used to stop the continuity of method execution.
  
  
  
