@@ -1107,8 +1107,70 @@ Day--15:
  Assignments:
  
  
+ Day--16:
+ ========
+ 
+ Constructor:
+ ===========
+ Constructor is a block of code similar to method.
+ It is called when an instance/object of the class is created.
+ At the time of calling constructor , memory for the object is allocated in the memory.
+ 
+ public class demo{
+ int a =10;
+ 
+ psvm(){
+ //statements   // variables and methods are mebers of class.
+ }
+ 
+ }
+ 
+ Syntax:
+ ======
+ 
+ public classname(){
+ //statements
+ }
+ 
+ Default constructer:
+ ===================
+ if we don't declare a constructor in the class ,JVM create an default constructer.
  
  
+ Rules for constructor:
+ ======================
+1. constructor name must be a class name.
+2. constructor can't take return type
+3. we can't return any value from the constructor
+4. constructor can take one or more parameters.
+
+Constructers are 2 Types:
+1.parametrized
+2.Non parameterized
+
+Constructor Overloading:
+========================
+Constructor Overloading is a technique in which a class can have any number of constructors that differ in parameters list.
+
+
+Eg:
+class name is :demo
+
+demo(){
+
+}
+
+
+demo(int a, int b){
+
+}
+
+demo(String name, int age){
+
+}
+ 
+ 
+
  
  
  
