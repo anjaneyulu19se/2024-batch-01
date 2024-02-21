@@ -1171,12 +1171,110 @@ demo(String name, int age){
  
  
 
+ Day--17:
+==========
+Arrays:
+======
+data Types:
+2 types :
+1.premitive
+	a.byte
+	b.short
+	c.int
+	d.long
+	e.float
+	f.double
+	g.char
+	h.boolean
+	
+2.non premitive.
+
+
+dataType varName = value;
  
+Eg:
+ int a = 10;
  
+ int a = new ClassName();
+ a=10;
  
+ java is not 100% Object Oriented Programing Language.
  
+ 2.non -premitive:
+ Arrays
+ Strings
+ Interface
+ class
+ collections
  
+ Arrays:
+ =======
+ Array is an object which contains elements of similar datatype.
  
+ arrays contains multiple values with similar data type
+ int a =15;
+ int a = 15,20,25;	// similar data type
+ int b = 25,35,"mango";  // Non similar data Type
+ 
+ int emp_id = 101,102,103;
+Array is also known as static data structure because size of an array is fixed.
+
+size of  array is fixed
+array is index based.
+a = {15, 68, 91, 100} 
+ 	 0	 1	 2	 3	
+ a[0]=15;
+ a[1]=68;
+ a[2]=91;
+ a[3]=100;
+ 
+ Array length is :4
+ Array Index size : 3 (4-1)	/length-1
+ 
+ Syntax:
+ ======
+ dataType[] a; or
+
+ dataType []a; or
+
+ dataType a[];
+ Intialization:
+ ===========
+ dataType a = new dataType[size];
+ 
+ define & initilization:
+ =========================
+ int[] b = new int[5];
+ 
+ Arrays are 2 types:
+ =====================
+ 1.Single Dimentional
+ 2.Multi Dimentional.
+ 
+1.Single Dimentional:
+======================
+{1,2,3,4}
+
+assesing Arrays :
+
+using Loop statements like for while
+
+Assignment:
+sum of Array value
+Eg:
+ int[] a={10,20,30,50} 
+ output: 110
+
+ Advantages:
+ ==========
+1 Group of elements/data together.
+ 2.code readability
+
+DisAdvantages:
+=============
+1.stores only similar data types
+2.Array is fixed in size
+
  
  
  
