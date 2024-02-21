@@ -1259,12 +1259,6 @@ assesing Arrays :
 
 using Loop statements like for while
 
-Assignment:
-sum of Array value
-Eg:
- int[] a={10,20,30,50} 
- output: 110
-
  Advantages:
  ==========
 1 Group of elements/data together.
@@ -1275,7 +1269,13 @@ DisAdvantages:
 1.stores only similar data types
 2.Array is fixed in size
 
- 
+
+Assignment:
+=============
+sum of Array value
+Eg:
+ int[] a={10,20,30,50} 
+ output: 110 
  
  
  
