@@ -1376,10 +1376,10 @@ Eg:
  }
 	
 	
-	default value incrementing by 1. we can not decrement or incremnet by morethan 1.
+	default value incrementing by 1. we can not decrement or increment by more than 1.
 	
 	
-	**iteration = size of Array.
+** No.of iteration = size of Array.
 	
 	
  
