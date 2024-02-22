@@ -1278,13 +1278,108 @@ Eg:
  output: 110 
  
  
+  Day--18:
+==========
+2.Multi Dimentional:
+====================
+ a. Two dimensional
+ b. Jagged array
+
+a.Two dimesional array:
+======================
+eg:
+[1,2,3]
+
+Eg:
+	1,2,3 
+	4,5,6
+m*n
+ 2*3
+ length ao array is 2*3=6
+ last index number is length -1 -> 6-1=5
+ 
+ tabular form of data
+ rows and columns
+ Every row have fixed coloumns.
+ EG:
+  1 2 3
+  4 5 6 
+  7 8 9
+  
+  Eg:
+   1 2 3
+   4 5 6
+   
+   Eg:
+    1 2
+	4 5
+	6 7
+   
+ Declaration :
+ ============
+ dataType [][] arrayName;
+ Eg:
+ int [][] aa;
  
  
+ Initialization:
+ =================
+ dataType [][] arrayName = new int [][];
  
-	 
+ Eg:
+ int [][] aa = new int [2][3];
+ 
+ out put:
+   1 2 3
+   4 5 6
+   
+ b.Jagged Array:
+ =================
+ Jagged array is an array that has different number of columns for each row.
+
+Jagged array means to hava a multi dementional array with uneven size of columnsin it.
+
+Eg:
+ employee data =100
+ id name 	disg 		addr 		domain mobile email ...
+101 a		dev   		hyderabad	java	9989	abc@gmail.com
+102	b	 	opertion		-		c++		98898	cde@gmail.com
+
+2 rows 7 coloumns
+but 
+1st row have 7 coloumns 
+2nd row only 6 coloumns
+
+Eg:
+ 1  2  3
+ 4  5  6  7  8
+ 9  1
+ 
+ while
+ do-while
+ for
+ nested for
+ for -each Loop statements:
+ ===========================
+ its also known as enhanced for Loop
+ For each statement executes the block of statements for each element of the given array and collection.
+ 
+ used in 
+ Array and collection
+ 
+ for each statements works from java version 5.0
+ 
+ Syntax:
+ =======
+ for(dataType varName : arrayorOrCollection){
+ //statements
+ }
 	
 	
+	default value incrementing by 1. we can not decrement or incremnet by morethan 1.
 	
+	
+	**iteration = size of Array.
 	
 	
  
