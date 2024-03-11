@@ -1375,34 +1375,162 @@ Eg:
  //statements
  }
 	
-	
-	default value incrementing by 1. we can not decrement or increment by more than 1.
-	
-	
+	default value incrementing by 1. we can not decrement or increment by morethan 1.	
 ** No.of iteration = size of Array.
 	
 	
  
+ JAVA 8 FEATURES:
+ ================
+ java 8 is an version
+ 
+ in March 18th,2014 introduced java 8.
+ 
+ java 1.0,1.1,1.2,...1.7..1.8 so termed as 8 ..9,10,11...
+ 
+ 150 lines code using 
+ functional proamming its goes to 75 or 80 lines
+ 
+ python
+ c
+ c#
+ Ruby
+ 
+ now java also introduced functional programming.
+ 
+ Objectives of java 8:
+ =====================
+ 1.to simplify the programming  ... more concise way
+ 2. to Utilize the functional programming in java
+ 3. to enable parallel programming . etc. readable, maintainable,concise code.
+ 
+ To use API's very easily and effectively.
  
  
+ Features:
+ ===========
+ 1.Lamda Expression
+ 2.Functional Interface
+ 3.Default and static methods
+ 4.Predifined Functional Interfaces
+	predicate
+	Function
+	consumer
+	supplier
+	etc..
+5.Double colons (::)
+6.Streams
+7.Date and Time API
+8.Optional Class.
+
+1.Lamda Expression:
+===================
+Introduced in 1930 
+LISP (ListProccessing)programing Language
+
+python
+Ruby
+c
+c#
+scala
+Finally in JAVA .
+
+Main objective of Lamda Expression:
+To bring benifits of functional programing into java.
+
+A Lamda Expression is an Anonymous function.
+i.e a function without name and without identifier.We can pass it to other methods as parameters,therefore using the power of functional programing.
+
+No Name
+No modifier
+No Return Type (Optional)
+
+why use Lamda Expression:
+to write functional programming
+to write more readable and concise.
+to enable parllel processing.
+
+Syntax:
+========
+(parameters_list) -> {(function_body)}
+
+Eg:1
+//java method
+
+public void add(int a , int b){
+	return a+b;
+}
+
+(int a, int  b) -> {return a+b;}
+
+or 
+(a,b) -> {return a+b;}
+
+Note : parameter dataType is not mandatory untill all parameters have same dataType.
+
+or
+(a,b)-> {a+b;}
+
+or
+(a,b)-> a+b;
+
+Note : Single statements curle braces or not mandatory.
+
+Eg.2:
+=====
+public void add(int a , float b){
+	return a+b;
+}
+
+(int a, float b) -> {return a+b;}
+
+Note: if return type mention curle braces are mandatory.
+
+Eg.3:
+=====
+public void m1(){
+	s.o.p("hi);
+}
+
+()->{s.o.p("hi);}
+or
+()->s.o.p("hi);
+
+Eg.4:
+=====
+public void add(int a, int b){
+	int c = a+b;
+	s.o.p(c);
+}
+
+(a,b)-> {s.o.p (a+b);}
+or
+(a,b)-> s.o.p (a+b);
+
+Eg.5:
+====
+public int getlength(String s){
+ return s.length();
+}
+
+(s) -> {s.length();}
+or
+s -> s.length();
+
+(int a, float b)-> s.o.p(a*b);
+
+public void m (int a , float b){
+	s.o.p(a*b);
+}
 
 
+Eg.6:
+====
+public int square (int a){
+	return a*a;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a -> a*a;
 
 
 
