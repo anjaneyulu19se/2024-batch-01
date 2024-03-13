@@ -1379,6 +1379,8 @@ Eg:
 ** No.of iteration = size of Array.
 	
 	
+ Day--19:
+==========
  
  JAVA 8 FEATURES:
  ================
@@ -1532,23 +1534,68 @@ public int square (int a){
 
 a -> {return (a*a);}
 
+ Day--20:
+==========
+
+void add(){
+sysop ("hello world)
+}
+
+ClassName var = new ClassName();
+var.add();
+
+To invoke Lamda Expression we use "Functional Interface"
+
+2. Functional Interface:
+=======================
+Interface:
+==========
+3.types
+1.Interfaces	( Any no.of Abstract methods /n no.of AM)
+2.Marked interfaces (zero methods /no methods) 
+3.Functional Interfaces. (SAM -SINGLE ABSTRACT Method)
+
+before java 1.8 in interfaces we have only abstract methods
+from java 1.8 onwards we have abstract methods and default + static methods.
+
+Functional Interface have SAM
+@FunctionalInterface
+It can be used for to call/invoke the Lamda Expression
 
 
 
+3.Default and static methods:
+=============================
+Default and static methods in interfaces 
+
+    Interface Test 
+	--------------
+	Class A  B  C  D   (Implementing)
+
+4.Predifined Functional Interfaces:
+===================================
+	predicate
+	Function
+	consumer
+	supplier
+	etc..
+
+Reference:
+==========
+https://docs.oracle.com/javase/8/docs/api/
 
 
+Date and Time API:
+==================
+Localdate yyy-mm-dd
+LocalTime Hour-mm-sec
+LocaldateTime
+Period class.
+
+==========================
 
 
-
-
-
-
-
-
-
-
-
-
+5.Double colons (::)
 
 
 
