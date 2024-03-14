@@ -1592,10 +1592,112 @@ LocalTime Hour-mm-sec
 LocaldateTime
 Period class.
 
-==========================
+
+Day--21:
+========
+Optional class:
+===============
+
+String a;
+String b;
+sysout(a+b);
+optional class which is in java.util. package
 
 
-5.Double colons (::)
+6.Stream API:
+=============
+source from array and Collections.
+streams are process the data
+collections are storing the data
+streams and collections are not same.
+
+few imp points:
+---------------
+>Stream is not a data structure. It is a bunch of operations applied to a source.
+>source can be collections , arrays or i/o channels.
+Stream dont change the original data structure.
+>Ther can be zero or more intermediate operations that streams into another stream
+each intermedaite operations is lazily executed.
+> Terminal operations produce the result
+
+we have 2 operations
+1. Intermediate OPeration (from one another stream)
+2. Terminal Operation (takes input and publih result)
+
+Stream Creation:
+===============
+in java 8 we can create stream in 2 ways
+
+1.Stream.of(v1,v2,v3...)
+2.stream()method
+
+Streams with filter:
+====================
+filter() method takes Predicate as input
+
+predicate is an functional interface which will take input and returns boolean value.
+
+Eg:
+
+Double colons (::):
+=====================
+Method Reference Operator
+
+Demo demo1 = new Demo();
+
+Method reference shortend for Lamda Expression.
+That call a specific method
+
+
+Type Inference:
+================
+from java 10 onwards Type Inference is introduced.
+
+defining variable
+Eg:
+ int a;
+ 
+initializing variable
+Eg:
+ a= 10;
+ 
+define & initializing variable
+
+ int a = 10;
+ 
+ javascript dataTypes
+  var 
+  let 
+  constant
+  
+ from java 10 onwards java  introduced  var keyword.
+ 
+ Key points:
+ ==========
+1. We can declare any datatype with the var keyword.
+2. var can be used in a local variable declaration.
+3. var cannot be used in an instance and global variable declaration.
+4. var cannot be used as a Generic type.
+	Eg: var<var> al = new ArrayList<>();
+5. var cannot be used with the generic type.
+	Eg:  var<Integer> al = new ArrayList<Integer>();
+6. var cannot be used without explicit initialization.
+	Eg:	var variable = null;
+7. var cannot be used with Lambda Expression.
+	Eg:	var obj = (a, b) -> (a + b);
+8. var cannot be used for method parameters and return type.
+	Eg: var method1() { return ("Inside Method1"); }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
