@@ -1585,7 +1585,7 @@ Reference:
 https://docs.oracle.com/javase/8/docs/api/
 
 
-Date and Time API:
+7.Date and Time API:
 ==================
 Localdate yyy-mm-dd
 LocalTime Hour-mm-sec
@@ -1595,8 +1595,8 @@ Period class.
 
 Day--21:
 ========
-Optional class:
-===============
+8.Optional class:
+=================
 
 String a;
 String b;
@@ -1639,7 +1639,7 @@ predicate is an functional interface which will take input and returns boolean v
 
 Eg:
 
-Double colons (::):
+5.Double colons (::):
 =====================
 Method Reference Operator
 
@@ -1648,7 +1648,7 @@ Demo demo1 = new Demo();
 Method reference shortend for Lamda Expression.
 That call a specific method
 
-
+=====================================================================
 Type Inference:
 ================
 from java 10 onwards Type Inference is introduced.
@@ -1688,7 +1688,7 @@ define & initializing variable
 8. var cannot be used for method parameters and return type.
 	Eg: var method1() { return ("Inside Method1"); }
 
-
+==============================================================================
 
 
 
