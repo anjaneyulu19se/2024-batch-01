@@ -1690,10 +1690,127 @@ define & initializing variable
 
 ==============================================================================
 
+Day--22:
+========
+
+OOPS:
+=====
+Object Oriented Programing Language(Object Oriented Programing Language System)  
+
+programing languages are 2 types
+1.POP (functions & procedures)
+Eg: c, cobal Pascal...etc
+2.OOPS (classes & Objects)
+* Object class is the default or super class for all classes.
+
+class A super class wiil be Object class
+
+Any Language follow OOPS principals  is called as OOP Language
+** code-reusability
+** security
+** performance
+** easy to manintain objects and classes
+
+OOPs principles:
+===============
+1.Encapsulation
+2.Abstraction
+3.Polymorphism
+4.Inheritance.
+
+1.Encapsulation:
+=================
+Encapsulation is used to combine our varaible and methods as single entity/unit.
+Encapsulation provides data hiding
+we can achieve encapsulation using classes.
+
+class demo {
+//methods  
+//variable
+}
+
+2.Abstraction:
+==============
+Abstraction means hiding the un necessary data and providing only required data.
+> We can achieve abstraction using Interfaces & abstract classes.
+Eg: We wiil not bother about how car engine is starting internally.
+
+3.Polymorphism:
+===============
+multiple behaviour based in situation is called polymorhism.
+Eg: "+" symbol having 2 differnt behaviours.
+
+10+20 ==> 30 (adding)
+
+"hi" + "Hello" ==> hiHello  (concatinating)
+
+4.Inheritence:
+==============
+Extending the properties from one class to another class is called as Inheritance
+
+Eg: child will inherit the properties from parent
+-> The main aim of Inheritance is "code re-usability"
+
+Note:
+In java , one child can't Inherit properties from two parents at a time.
+
+
+Inheritance:
+============
+normal									in JAVA
+------									---------
+parent class  (giving properties) 		Super class
+child class  (taking properties)        Sub class
+
+To inherint we use extends keyword.
+
+Types of Inheritance:
+====================
+1.Single Inheritance
+2.Multilevel Inheritance
+3.Hierarchical Inheritance
+4.Multiple Inheritance
+
+** Multiple Inheritance not supported @ class level but support @ Interface level
+
+Eg:
+
+1.Single Inheritance:
+
+		parent 
+		 |
+		 |
+		child
+
+2.Multilevel Inheritance:
+
+		Super parent
+			|
+		  parent
+			|
+		   Child
+		   
+3.Hierarchical Inheritance:
+		parent
+	-----------
+	|		|		|
+child A 	child B child C
+
+4.Multiple Inheritance:
+
+       parent A  parent B 
+				|
+				|
+			Child C 
+			
+Super keyword:
+==============
+
+super keyword is used to call parent class methods and variable(Properties).
 
 
 
-
+	   
 
 
 
