@@ -1809,13 +1809,101 @@ Super keyword:
 super keyword is used to call parent class methods and variable(Properties).
 
 
+Day--23:
+========
 
-	   
+Types of Relationships in Java:
+==============================
+We have 2 types of relationship in java class
+1.Is-A Realtionship
+2.Has-A Realtionship
+
+1.Is-A Realationship:
+=====================
+If class is extending from another class then it is called as Is-A Realationship.
+
+Eg:	class A{
+	int add = 10;
+		//Logic
+
+	}
+
+ Class B extends A {
+  int add= 20;
+ // Logic
+ 
+ }
+The relationship between Class A & B is Is-A Realationship
+Note :
+Here we can access Class A information inside the Class B without creating Object of Class A.
+
+2. Has-A Realationship:
+=======================
+If a class contains other class object, then it is called as Has-A Realationship
+
+Eg:
+Eg:	class A{
+	int add = 10;
+		//Logic
+
+	}
+
+ Class B {
+ 
+  B obj = new B();
+  obj.add;
+ // Logic
+ 
+ }
+Note :
+Here we can access Class A information inside the Class B only by using Object of Class A.
+
+Access Modifiers:
+=================
+Access Modifiers are keywords in Java that are used to set accessibility.
+
+An access Modifiers restricts the acces of a class , constructer, members of class(varaibles and methods).
+they are the 4 Types:
+=====================
+1.Public
+2.private
+3.Protected
+4.Default/no-modifier/ Package-private.
+
+1.public:
+=========
+has scope that is visible/access everywhere.
+
+2.Private:
+==========
+has scope only within the class.
+
+3. Protected:
+=============
+Has scope wthin the package and all subclasses.	
+
+4.Default:
+===========
+Has scope only inside the package 
+
+2.Encapsulation:
+=================
+
+Encapsulation is used to combine our varaible and methods as single entity/unit.
+Encapsulation provides data hiding
+we can achieve encapsulation using classes
+
+Getters & Setters:
+================
+Encapsulation
 
 
-
-
-
+Why Encapulation ?
+====================
+> Better control of class atributes and methods.
+> Class attributes can be made read only or Write only
+>Flexible: programmer can change one part of the caode without affecting other parts
+>Increased security of data.
 
 
 
