@@ -1905,13 +1905,102 @@ Why Encapulation ?
 >Flexible: programmer can change one part of the caode without affecting other parts
 >Increased security of data.
 
+===========================================
+
+Day -24:
+========
+
+3.Polymorphism:
+===============
+poly + morph
+multi + forms.
+polymorhism means defining one entity with multiple behaviours.
+
+In java 2 types of Polymorphism.
+--------------------------------
+1.Compile time polymorhism
+2.Run time Polymorphism
+
+1.Compile time polymorhism:
+============================
+If polymorhism is decided at the time of compilation by java compiler, then it is called Compiletime polymorhism
+
+Note:
+By using the concept of "Method OverLoading" we can achieve this compiletime polymorhism
+
+2.Run time Polymorphism:
+========================
+If polymorhism is decided at the time of Runtime(execution time) by JVM, then it is called Compiletime polymorhism
+
+Note:
+By using the concept of "Method Overriding" we can achieve this Runtime polymorhism
+
+Method OverLoading:
+===================
+Method overloading means declaring multiple methods with same name but having different method signature.
+
+in method overloading while writing the method we follow 3 rules.
+1.Method name must be same for all methods
+2.List of parameters must be different like different type of parameters , different number of parameters,
+  different order of parameters.
+3.Return type is not considered in method overloading. It means we never decide method overloadingwith return type
 
 
+Why to use MethodOverloading:
+---------------------------------
+To maintain Flexiblity in our application
+> one method perform several operation.
+
+Method Overriding:
+=================
+if we want to achieve the Run time polymorhism then we have to use method overriding
+
+Method overriding means declaring 2 methods with same method signature in 2 different classes which having a IS-A relationship
+
+Rules:
+1.Method name must be same
+2.List of parameters must be same
+3.Return type must be same
+4.private , final, and static methods cannot be overriden
+5.There must be a IS-A Relationship between clasess (Inheritence)
+
+Why to use Method Overriding:
+------------------------------
+Whenever child class don't want use parent class defination and want to implement own defination 
 
 
+Final Keyword:
+============
+final keyword or modifier  which can used at variables , methods and classes.
+
+if we declare variable as final , we can't modify or change value of variable. acts like a constant 
+Final field must be initialized when it is declared
+
+If we declare a method as final then we can't override the method
+
+If we declare class as final we can't extend from that  class. we can't inherit final class in java
 
 
+Interface:
+==========
+Interface is a fully abstract class. It includes group of Abstract methods.(without body)
 
+we use interface keyword to use interface in java
+
+All the variables are defaultly public,static , final (we specify or not)
+All the methods are defaultly public, abstract (we specify or not)
+
+public : variables and methods declared in interface we access from any where
+static: variables declared in inerfaces are by default static we access directly by using the interface name.
+ 
+final: variables declared in inerfaces are by default final it means they are constant.
+abstract: All the methods declared in interface are abstract because they don't contain any method body.
+
+====================================================
+
+
+Implementing an Interface:
+==========================
 
 
 
