@@ -1999,19 +1999,80 @@ abstract: All the methods declared in interface are abstract because they don't 
 ====================================================
 
 
+Day -25:
+========
+
+
 Implementing an Interface:
 ==========================
+we cannot create object for interfaces.
+To use implement is keyword to implement an interface
+
+Interface Rules:
+================
+>we cannot creat object for interface directly but we can create reference variable.
+>must provide implementation for all abstract methods available in respective Interface
+>if you do partial implementation you must declare class as abstract class
+>we create object for only for implenation class.
+> Once create an Interface then any no.of classes can implement that interface
+> similar to classes interface can extend other interfaces
+>one interface can extend multiple interfaces
+> one class can implement multiple interfaces
+
+uses of Interfaces
+==================
+to achieve total abstraction
+to achieve multiple inheritance at interface level.
+loose coupling.
+
+Interfaces types:  3 Types
+=================
+1. Normal Interface  (Any no. abstract methods )
+2.Marked Interface.  (zero Abstract method)
+3.Functional Interface. (SAM - Single Abstract Method)
+
+from java 8 onwards
+an interface have Abstract methods + default +static methods
+
+default method in Interface:
+
+we change the implementaion and we call through object creation
+
+static Method in interfaces:
+
+we cannot the implementaion and we call through Interface name
+
+3.Functional Interface. (SAM - Single Abstract Method)
+=====================
+from java 8 (1.8)onwards
+SAM +DEFAULT METHOD + STATIC Method
+
+@Fuctionalinterface
+
+**Interface is blueprint of class.
 
 
+Java Abstract Class & method:
+=============================
+Abstract Class:
+-------------
+a class declaring using abstract keyword is known as Abstract class
+> abstract  class may or may not have have abstract methods
+>we can not create object for Abstract Class.
+
+Use:
+to achieve abstraction but it doesnot provide 100% abstraction, because it canhave concrete methods
+ (abstract + non abstract methods)
+
+syntax:
+	abstract class class_name{
+	}
 
 
-
-
-
-
-
-
-
+Day -26:
+========
+Abstraction:
+=============
 
 
 
