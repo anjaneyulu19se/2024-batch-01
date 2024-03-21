@@ -2073,6 +2073,36 @@ Day -26:
 ========
 Abstraction:
 =============
+Abstraction is a process of hiding the implementation  details and showing only functionality to the user.
+Eg:	ATM
+
+=========================================================================
+
+Execption Handling:
+====================
+Exception is an event that occurs during the execution of a program that disturb the normal flow of instructions
+
+Execeptions are 2 Types:
+-----------------------
+1.checked Exception / compile time error
+2.Unchecked Exception / run time error
+
+1.checked Exception / compile time error:
+at the event of compile time.
+2.Unchecked Exception / run time error
+at the event of run time.
+
+keywords:
+5 keywords
+1.try
+2.catch
+3.final
+4.throw
+5.throws
+
+
+
+
 
 
 
